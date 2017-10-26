@@ -20,6 +20,13 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "loginclassic",
+      "name": "Login-Classic",
+      "sourceScreenId": "app.login.loginclassic",
+      "sourceAppId": "universaltemplates",
+      "model": "loginclassic"
     }
   ],
   "sourceAppId": "_blank",
