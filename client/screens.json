@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "test1234",
-  "startScreen": "app.blank",
+  "startScreen": "app.loginclassic",
   "screens": [
     {
       "id": "blank",

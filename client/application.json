@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "8195b542",
   "uiCommonVersion": "5.2.1",
-  "creatorId": "xxgkzeng"
+  "creatorId": "xxgkzeng",
+  "id": "test1234",
+  "previewImageURL": "/previews/8195b542-test1234/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/xxgkzeng/test1234",
+  "creatorName": "Kent Zeng",
+  "sdks": []
 }
