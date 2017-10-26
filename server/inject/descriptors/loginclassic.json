@@ -48,8 +48,8 @@
     },
     "islogin": {
       "type": "identifier",
-      "selector": ".btn.btn-blue.btn-block.text-left",
-      "control": "action.button"
+      "control": "action.button",
+      "selector": "#login"
     }
   },
   "connect": [
