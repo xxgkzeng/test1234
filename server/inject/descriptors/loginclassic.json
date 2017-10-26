@@ -48,8 +48,8 @@
     },
     "islogin": {
       "type": "identifier",
-      "control": "action.button",
-      "selector": "#login"
+      "selector": "#login",
+      "control": "exists"
     }
   },
   "connect": [
