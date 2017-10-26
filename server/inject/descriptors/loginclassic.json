@@ -45,7 +45,21 @@
       },
       "selector": ".page-body.skin-green.horizontal-menu-skin-facebook",
       "control": "action.button"
+    },
+    "islogin": {
+      "type": "identifier",
+      "selector": ".btn.btn-blue.btn-block.text-left",
+      "control": "action.button"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "islogin"
+      ],
+      "screens": [
+        "loginclassic"
+      ]
+    }
+  ]
 }
