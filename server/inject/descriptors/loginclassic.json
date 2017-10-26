@@ -43,7 +43,7 @@
           "type": "string"
         }
       },
-      "selector": ".btn.btn-blue.btn-block.text-left",
+      "selector": ".page-body.skin-green.horizontal-menu-skin-facebook",
       "control": "action.button"
     }
   },
