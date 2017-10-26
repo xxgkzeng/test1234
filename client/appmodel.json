@@ -81,37 +81,19 @@
         "items": {
           "type": "object",
           "properties": {
-            "id": {
+            "RFQNO": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "summary": {
+            "ApplicateDate": {
               "type": "string",
               "update": {
                 "type": "none"
               }
             },
-            "status": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "severity": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "assignedto": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "updated": {
+            "PrepareBy": {
               "type": "string",
               "update": {
                 "type": "none"
