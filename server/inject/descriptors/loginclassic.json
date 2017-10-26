@@ -22,7 +22,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "#passwd",
+      "control": "text"
     },
     "errorMessage": {
       "type": "string",
