@@ -36,7 +36,8 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": ".fixed-table-container"
+      "selectorAll": ".fixed-table-container",
+      "frameSelector": "iframe"
     }
   },
   "connect": []
