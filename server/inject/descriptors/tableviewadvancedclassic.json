@@ -19,7 +19,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "control": "property.innerHTML"
           },
           "PrepareBy": {
             "type": "string",
