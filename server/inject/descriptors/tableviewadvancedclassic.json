@@ -13,7 +13,7 @@
               "type": "none"
             },
             "selector": "td",
-            "control": "property.innerHTML"
+            "control": "property.innerText"
           },
           "ApplicateDate": {
             "type": "string",
