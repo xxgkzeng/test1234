@@ -41,8 +41,9 @@
     },
     "isview": {
       "type": "identifier",
-      "selector": "#REQHeadTable",
-      "control": "property.innerText"
+      "control": "exists",
+      "selector": ".th-inner.",
+      "selectContains": "RFQNO#"
     }
   },
   "connect": []
