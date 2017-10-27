@@ -43,7 +43,8 @@
       "type": "identifier",
       "control": "exists",
       "selector": ".th-inner.",
-      "selectContains": "RFQNO#"
+      "selectContains": "RFQNO#",
+      "frameSelector": "iframe[name='pageIframe']"
     }
   },
   "connect": [
