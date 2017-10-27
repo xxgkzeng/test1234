@@ -38,6 +38,11 @@
       },
       "selectorAll": "#REQHeadTable tbody tr",
       "frameSelector": "iframe[name='pageIframe']"
+    },
+    "isview": {
+      "type": "identifier",
+      "selector": "#REQHeadTable",
+      "control": "property.innerText"
     }
   },
   "connect": []
