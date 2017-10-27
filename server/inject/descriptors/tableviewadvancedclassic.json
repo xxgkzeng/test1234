@@ -42,9 +42,9 @@
     "isview": {
       "type": "identifier",
       "control": "exists",
-      "selector": ".th-inner.",
       "selectContains": "RFQNO#",
-      "frameSelector": "iframe[name='pageIframe']"
+      "frameSelector": "iframe[name='pageIframe']",
+      "selector": ".th-inner"
     }
   },
   "connect": [
