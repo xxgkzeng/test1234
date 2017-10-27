@@ -36,8 +36,8 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": ".fixed-table-container",
-      "frameSelector": "iframe"
+      "selectorAll": "#REQHeadTable tbody tr",
+      "frameSelector": "iframe[name='pageIframe']"
     }
   },
   "connect": []
