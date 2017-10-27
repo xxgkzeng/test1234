@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "comment": "issueslist",
+  "properties": {
+    "issueslist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "RFQNO": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            },
+            "selector": "td",
+            "control": "property.innerHTML"
+          },
+          "ApplicateDate": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "PrepareBy": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "connect": []
+}
