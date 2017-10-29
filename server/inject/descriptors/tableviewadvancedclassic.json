@@ -3,38 +3,12 @@
   "comment": "issueslist",
   "properties": {
     "issueslist": {
-      "type": "object",
+      "type": "identifier",
       "update": {
         "type": "none"
       },
       "frameSelector": "iframe[name='pageIframe']",
-      "selector": "#REQHeadTable tbody tr",
-      "properties": {
-        "RFQNO": {
-          "type": "string",
-          "update": {
-            "type": "none"
-          },
-          "selector": "td",
-          "control": "property.innerText"
-        },
-        "ApplicateDate": {
-          "type": "string",
-          "update": {
-            "type": "none"
-          },
-          "selector": "td",
-          "control": "property.innerHTML"
-        },
-        "PrepareBy": {
-          "type": "string",
-          "update": {
-            "type": "none"
-          },
-          "selector": "td",
-          "control": "property.innerHTML"
-        }
-      }
+      "selector": "#REQHeadTable tbody tr"
     },
     "isview": {
       "type": "identifier",
