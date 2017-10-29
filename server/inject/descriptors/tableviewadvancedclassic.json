@@ -3,41 +3,38 @@
   "comment": "issueslist",
   "properties": {
     "issueslist": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "RFQNO": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "control": "property.innerText"
-          },
-          "ApplicateDate": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "control": "property.innerHTML"
-          },
-          "PrepareBy": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "control": "property.innerHTML"
-          }
-        }
-      },
+      "type": "object",
       "update": {
         "type": "none"
       },
-      "selectorAll": "#REQHeadTable tbody tr",
-      "frameSelector": "iframe[name='pageIframe']"
+      "frameSelector": "iframe[name='pageIframe']",
+      "selector": "#REQHeadTable tbody tr",
+      "properties": {
+        "RFQNO": {
+          "type": "string",
+          "update": {
+            "type": "none"
+          },
+          "selector": "td",
+          "control": "property.innerText"
+        },
+        "ApplicateDate": {
+          "type": "string",
+          "update": {
+            "type": "none"
+          },
+          "selector": "td",
+          "control": "property.innerHTML"
+        },
+        "PrepareBy": {
+          "type": "string",
+          "update": {
+            "type": "none"
+          },
+          "selector": "td",
+          "control": "property.innerHTML"
+        }
+      }
     },
     "isview": {
       "type": "identifier",
