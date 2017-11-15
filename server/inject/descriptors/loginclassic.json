@@ -48,8 +48,7 @@
     },
     "isexist": {
       "type": "identifier",
-      "selector": "#btnAlert",
-      "control": "action.button"
+      "control": "exists"
     }
   },
   "connect": []
