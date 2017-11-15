@@ -43,7 +43,8 @@
           "type": "string"
         }
       },
-      "selector": "#btnAlert"
+      "selector": "#btnAlert",
+      "control": "action.button"
     },
     "isexist": {
       "type": "identifier",
