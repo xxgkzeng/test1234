@@ -23,7 +23,8 @@
           "submit"
         ]
       },
-      "selector": "#txtPWD"
+      "selector": "#txtPWD",
+      "control": "text"
     },
     "errorMessage": {
       "type": "string",
