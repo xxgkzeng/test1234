@@ -11,7 +11,7 @@
           "submit"
         ]
       },
-      "selector": ".col-sm-12"
+      "selector": "#txtIdCard"
     },
     "password": {
       "type": "string",
