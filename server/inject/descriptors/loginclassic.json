@@ -42,6 +42,11 @@
         }
       },
       "selector": "#btnAlert"
+    },
+    "isexist": {
+      "type": "identifier",
+      "selector": "#btnAlert",
+      "control": "action.button"
     }
   },
   "connect": []
