@@ -21,7 +21,8 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "#txtPWD"
     },
     "errorMessage": {
       "type": "string",
